@@ -1,0 +1,30 @@
+ul li{
+   /* list-style-type: square;*/
+    list-style-image: url(./images/bulletIcon1.jpg);
+
+}
+ol li::marker{
+    content: "🏏";
+}
+.family li::marker{
+    content: "👪";
+}
+
+dt{
+    color:rgb(21, 4, 36);
+    
+}
+
+dd{
+    color:blue;
+}
+
+body{
+    background-color: orange;
+}
+
+img{
+    width: 500px;
+    background-color: red;
+    border-radius: 30px;
+}
